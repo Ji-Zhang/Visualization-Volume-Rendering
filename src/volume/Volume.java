@@ -35,7 +35,7 @@ public class Volume {
         
     }
     
-    // an easy way to store intensity values in an one dimension array
+    
     public short getVoxel(int x, int y, int z) {
         return data[x + dimX*(y + dimY * z)];
     }
